@@ -141,12 +141,12 @@ A **critic agent** reviews the output before it ships. Runs entirely local on Ol
 
 ---
 
-### 🐍 Watch the snake eat my commits
+### 🐍 Watch the laziness eat my commits
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/output/github-snake.svg" />
-  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Osaid10/Osaid10/output/github-snake.svg" />
+  <img width="100%" alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Osaid10/Osaid10/output/github-snake.svg" />
 </picture>
 
 ---

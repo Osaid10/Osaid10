@@ -1,7 +1,11 @@
 ## Hi, I'm Osaid! 👋
 
-*AI/ML Engineer · AI Intern at **Mercurial Minds***
-*BS Artificial Intelligence at [GIK Institute](https://giki.edu.pk)*
+**AI/ML Engineer**<br/>
+🎓 BS Artificial Intelligence — [GIK Institute](https://giki.edu.pk) graduate<br/>
+💼 AI Intern at **AIRLOOP** (Datapoint Pvt. Ltd.)<br/>
+🤖 AI Intern at **Mercurial Minds**
+
+AI/ML Engineer with hands-on experience building and deploying production-grade **agentic AI, computer vision, NLP and LLM-powered systems**. Specialised in RAG architectures, multi-agent orchestration, real-time inference and full-stack AI deployment. Currently seeking **full-time AI/ML roles in Pakistan and remote**.
 
 <a href="https://linkedin.com/in/osaid-khan-afridi"><img src="https://img.shields.io/badge/LinkedIn-osaid--khan--afridi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:khanosaid22@gmail.com"><img src="https://img.shields.io/badge/Email-khanosaid22-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>

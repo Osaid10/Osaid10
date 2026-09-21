@@ -1,0 +1,29 @@
+name: stats card
+
+on:
+  schedule:
+    - cron: '41 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Redraw the card
+        run: python3 scripts/render_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if it changed
+        run: |
+          git config user.name 'Osaid Khan Afridi'
+          git config user.email '133695601+Osaid10@users.noreply.github.com'
+          git add assets
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "chore: refresh stats card"
+          git push || (git pull --rebase && git push)

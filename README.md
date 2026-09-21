@@ -133,12 +133,12 @@ Persistent on-disk vectors, fully local inference with **no external APIs**, Doc
 </td>
 <td width="50%" valign="top">
 
-#### ▸ [agentflow-research-engine](https://github.com/Osaid10/agentflow-research-engine)
-Four specialised agents on LangGraph plus live web search, producing fully cited research reports.
+#### ▸ [multi-agent-research-report-team](https://github.com/Osaid10/multi-agent-research-report-team)
+A **supervisor-led** LangGraph team — planner, parallel researchers, writer, critic — that turns a topic into a cited report.
 
-A **critic agent** scores each draft out of 10 and sends anything under 7 back for revision before it ships. Runs entirely local on Ollama.
+Adds a reflection loop and a human-in-the-loop gate, and is **measured against a single-agent baseline** rather than assumed better.
 
-<sub>`LangGraph` `Ollama` `Web Search`</sub>
+<sub>`LangGraph` `Multi-agent` `HITL` `Eval harness`</sub>
 
 </td>
 </tr>
@@ -166,7 +166,9 @@ Runs entirely on your own machine; nothing spoken leaves it.
 </tr>
 </table>
 
-<sub>also — [**xis-object-measurement**](https://github.com/Osaid10/xis-object-measurement) real-world mm measurement from one photo via Mask R-CNN ·
+<sub>also — [**agentflow-research-engine**](https://github.com/Osaid10/agentflow-research-engine) four local agents whose critic sends any draft under 7/10 back for revision ·
+[**n8n-automation-suite**](https://github.com/Osaid10/n8n-automation-suite) three production n8n workflows with retries, dead-letter queues and a global error handler ·
+[**xis-object-measurement**](https://github.com/Osaid10/xis-object-measurement) real-world mm measurement from one photo via Mask R-CNN ·
 [**supplychain-dapp**](https://github.com/Osaid10/supplychain-dapp) Ethereum supply-chain tracker with ECDSA-signed receipts</sub>
 
 ---

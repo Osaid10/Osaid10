@@ -109,7 +109,7 @@ Full-stack: Python AI microservice → Node.js backend → React dashboard, auto
 #### ▸ [lora-fine-tuning](https://github.com/Osaid10/lora-fine-tuning)
 Low-Rank Adaptation implemented by hand for GPT-2 — **no PEFT, no shortcuts**.
 
-Training just **0.33%** of parameters cut perplexity **~20×** (8358 → 422). Benchmarked accuracy vs. efficiency across ranks **r = 1 to 32**.
+Training just **0.33%** of parameters cut WikiText-2 validation perplexity **39%** (59.15 → 36.04). Benchmarked the accuracy/efficiency trade-off across ranks **r = 1 to 32**.
 
 <sub>`PyTorch` `Hugging Face Transformers`</sub>
 

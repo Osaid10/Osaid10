@@ -142,10 +142,31 @@ A **critic agent** scores each draft out of 10 and sends anything under 7 back f
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ▸ [giki-multimodal-rag](https://github.com/Osaid10/giki-multimodal-rag)
+**Built @ Mercurial Minds.** Archives an entire university website — **3,368 pages at 100% coverage**, proven by an audit tool — then answers spoken or typed questions over it.
+
+Retrieves text **and** images: 13,933 chunks plus 4,253 CLIP-indexed images in ChromaDB, answered **fully offline** by a local 3B vision model. Voice backend picked on measured WER, not preference.
+
+<sub>`Multimodal RAG` `CLIP` `ChromaDB` `Ollama` `Whisper` `Streamlit`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### ▸ [voiceassist](https://github.com/Osaid10/voiceassist)
+A voice assistant that remembers you between sessions — Whisper STT → local Ollama model → neural TTS, with conversations persisted in SQLite.
+
+Runs entirely on your own machine; nothing spoken leaves it.
+
+<sub>`Whisper` `Ollama` `SQLite` `Neural TTS`</sub>
+
+</td>
+</tr>
 </table>
 
-<sub>also — [**voiceassist**](https://github.com/Osaid10/voiceassist) local Whisper → Ollama → neural TTS with cross-session memory ·
-[**xis-object-measurement**](https://github.com/Osaid10/xis-object-measurement) real-world mm measurement from one photo via Mask R-CNN ·
+<sub>also — [**xis-object-measurement**](https://github.com/Osaid10/xis-object-measurement) real-world mm measurement from one photo via Mask R-CNN ·
 [**supplychain-dapp**](https://github.com/Osaid10/supplychain-dapp) Ethereum supply-chain tracker with ECDSA-signed receipts</sub>
 
 ---

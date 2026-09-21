@@ -8,7 +8,7 @@
 <a href="mailto:khanosaid22@gmail.com"><img src="https://img.shields.io/badge/Email-khanosaid22-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/Osaid10"><img src="https://img.shields.io/github/followers/Osaid10?style=flat-square&logo=github&label=Follow&color=181717" /></a>
 
-AI/ML Engineer building **agentic AI, computer vision and LLM-powered systems** that run in production — RAG architectures with citations you can check, multi-agent orchestration with human approval gates, and real-time inference. **BS Artificial Intelligence, [GIK Institute](https://giki.edu.pk).** Currently an AI Intern at **Mercurial Minds**, previously at **AIRLOOP (Datapoint Pvt. Ltd.)**, where a road-defect model I built is still running in production.
+AI/ML Engineer building **agentic AI, computer vision and LLM-powered systems** that run in production — RAG architectures with citations you can check, multi-agent orchestration with human approval gates, and real-time inference. **BS Artificial Intelligence, [GIK Institute](https://giki.edu.pk)**, class of 2026. Most recently **Agentic AI Intern at Mercurial Minds**; before that **AIRLOOP (Datapoint Pvt. Ltd.)**, where a road-defect model I built is still running in production.
 
 <details>
 <summary><b>🧠 A little more about me...</b></summary>
@@ -39,10 +39,10 @@ class Osaid:
 
     def currently(self):
         return {
-            "working_on": "agentic AI systems @ Mercurial Minds",
-            "shipped":    "a road-defect CV model @ AIRLOOP — live in production",
-            "open_to":    "full-time AI/ML roles — Pakistan & remote",
-            "ask_me":     "agents, RAG, fine-tuning, computer vision",
+            "just_wrapped": "agentic AI @ Mercurial Minds (Jul–Sep 2026)",
+            "shipped":       "a road-defect CV model @ AIRLOOP — live in production",
+            "open_to":       "full-time AI/ML roles — Pakistan & remote",
+            "ask_me":        "agents, RAG, fine-tuning, computer vision",
         }
 ```
 
@@ -52,11 +52,13 @@ class Osaid:
 
 ### 💼 Experience
 
-**AI Intern** · Mercurial Minds — *Jul 2026 – Present*
-Building agentic AI systems with LangChain and LangGraph. Current project is an end-to-end recruitment pipeline — resume ingestion, bias-controlled ranking, interview scheduling, and evidence-backed recommendations behind enforced human approval gates.
+**Agentic AI Intern** · Mercurial Minds — *Jul – Sep 2026*
+Built an end-to-end recruitment pipeline — a **6-stage LLM chain** over resumes with Pydantic-validated structured output at every step, bias-controlled ranking and evidence-backed recommendations, stopping at **two enforced human checkpoints**.
+
+Also built a resumable web archiver that captured **3,368 pages at 100% coverage** (7,704 files) with an audit tool that *proves* the coverage rather than asserting it, and a **multimodal RAG** over 13,933 text chunks and 4,253 CLIP-indexed images answering from either modality on a local vision model. Chose the speech stack on evidence, not vibes — three TTS backends scored on WER, ROUGE-L and BERTScore (**0.255** vs 0.273 and 0.302).
 
 **AI Intern** · AIRLOOP (Datapoint Pvt. Ltd.) — *Jun – Aug 2025*
-Developed and deployed a **production computer vision model for automated road condition monitoring**, detecting potholes and surface defects from live footage — **currently in active production use**. Engineered multi-source data pipelines integrating CSV, XML, API and database feeds into unified analytics workflows.
+Took a computer vision model from prototype to **cloud production deployment** for automated road-condition monitoring, detecting potholes and surface defects from live footage — **~90% detection accuracy across ~100 km of road**, still in active use. Engineered multi-source data pipelines integrating CSV, XML, API and database feeds into unified analytics workflows.
 
 ---
 
@@ -79,6 +81,8 @@ Developed and deployed a **production computer vision model for automated road c
 **Capstone.** Autonomous multi-agent onboarding on LangGraph state machines — monitors **20+ tasks per employee** across HRIS, email and task systems, sending reminders and escalating blockers on its own.
 
 RAG over policy PDFs, FastAPI + Streamlit with MCP tool use. Cut simulated onboarding from **15–20 hours to under 5** per hire.
+
+**30 eval cases gate every push** in CI — scored on faithfulness, relevancy and tool-call accuracy.
 
 <sub>`LangGraph` `Gemini` `ChromaDB` `FastAPI` `MCP` `Docker`</sub>
 
@@ -132,7 +136,7 @@ Persistent on-disk vectors, fully local inference with **no external APIs**, Doc
 #### ▸ [agentflow-research-engine](https://github.com/Osaid10/agentflow-research-engine)
 Four specialised agents on LangGraph plus live web search, producing fully cited research reports.
 
-A **critic agent** reviews the output before it ships. Runs entirely local on Ollama.
+A **critic agent** scores each draft out of 10 and sends anything under 7 back for revision before it ships. Runs entirely local on Ollama.
 
 <sub>`LangGraph` `Ollama` `Web Search`</sub>
 

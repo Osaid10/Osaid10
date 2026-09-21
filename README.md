@@ -1,20 +1,19 @@
-## Hi, I'm Osaid! 👋
-
-**AI/ML Engineer**<br/>
-🎓 BS Artificial Intelligence — [GIK Institute](https://giki.edu.pk) graduate<br/>
-💼 AI Intern at **AIRLOOP** (Datapoint Pvt. Ltd.)<br/>
-🤖 AI Intern at **Mercurial Minds**
-
-AI/ML Engineer with hands-on experience building and deploying production-grade **agentic AI, computer vision, NLP and LLM-powered systems**. Specialised in RAG architectures, multi-agent orchestration, real-time inference and full-stack AI deployment. Currently seeking **full-time AI/ML roles in Pakistan and remote**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/header-light.svg" />
+  <img width="100%" alt="Osaid Khan Afridi — AI/ML Engineer" src="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/header-dark.svg" />
+</picture>
 
 <a href="https://linkedin.com/in/osaid-khan-afridi"><img src="https://img.shields.io/badge/LinkedIn-osaid--khan--afridi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:khanosaid22@gmail.com"><img src="https://img.shields.io/badge/Email-khanosaid22-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/Osaid10"><img src="https://img.shields.io/github/followers/Osaid10?style=flat-square&logo=github&label=Follow&color=181717" /></a>
-<img src="https://komarev.com/ghpvc/?username=Osaid10&style=flat-square&color=00E5FF&label=Profile+views" />
 
----
+AI/ML Engineer building **agentic AI, computer vision and LLM-powered systems** that run in production — RAG architectures with citations you can check, multi-agent orchestration with human approval gates, and real-time inference. **BS Artificial Intelligence, [GIK Institute](https://giki.edu.pk).** Currently an AI Intern at **Mercurial Minds**, previously at **AIRLOOP (Datapoint Pvt. Ltd.)**, where a road-defect model I built is still running in production.
 
-### 🧠 A little more about me...
+<details>
+<summary><b>🧠 A little more about me...</b></summary>
+
+<br/>
 
 ```python
 class Osaid:
@@ -46,6 +45,8 @@ class Osaid:
             "ask_me":     "agents, RAG, fine-tuning, computer vision",
         }
 ```
+
+</details>
 
 ---
 
@@ -155,12 +156,18 @@ A **critic agent** reviews the output before it ships. Runs entirely local on Ol
 
 ---
 
-### 📈 Stats
+### 📈 By the numbers
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Osaid10&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Osaid10&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E5FF&langs_count=8" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/stats-light.svg" />
+  <img width="100%" alt="Measured results and language split" src="https://raw.githubusercontent.com/Osaid10/Osaid10/main/assets/stats-dark.svg" />
+</picture>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Osaid10&theme=react-dark&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true" />
+<sub>Each figure is reproducible from the repo it names. The language split is
+computed from the GitHub API by [`scripts/render_stats.py`](scripts/render_stats.py)
+and redrawn weekly — both cards are SVGs committed to this repo rather than
+hotlinked, so they never rate-limit or 404.</sub>
 
 ---
 
